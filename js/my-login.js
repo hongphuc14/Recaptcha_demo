@@ -25,7 +25,7 @@ $(function() {
 	
 	// Thêm hàm gọi reCAPTCHA
 	function executeRecaptcha() {
-		grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'login' })
+		grecaptcha.execute('6Lf8tzEpAAAAAN6TF5OBKPQ9yA41tB5G2W9sAoyX', { action: 'login' })
 		  .then(function(token) {
 			// Token này cần được gửi cùng với yêu cầu đăng nhập đến máy chủ của bạn
 			// Xử lý đăng nhập và kiểm tra token tại máy chủ
